@@ -1,10 +1,27 @@
 #about[b-ezrf6h4eti]{
     display: flex;
-    border: 1px solid gray;
+    border: 0.1rem solid gray;
     border-radius: 1rem;
-    width: 60vw;
+    width: 100%;
     height: fit-content;
     flex-wrap: wrap;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#about_header[b-ezrf6h4eti]{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logos[b-ezrf6h4eti]{
+    display: flex;
+}
+
+#about_container[b-ezrf6h4eti]{
+    margin: auto;
+    width: 60vw;
 }

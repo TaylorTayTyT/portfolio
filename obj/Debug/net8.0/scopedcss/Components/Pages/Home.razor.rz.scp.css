@@ -9,13 +9,3 @@
     display: flex;
     gap: 3rem;
 }
-
-#about[b-uol6y3lfcd]{
-    display: flex;
-    border: 1px solid gray;
-    border-radius: 1rem;
-    width: 60vw;
-    height: fit-content;
-    flex-wrap: wrap;
-    font-size: 3rem;
-}

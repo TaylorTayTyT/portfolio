@@ -1,3 +1,31 @@
+/* _content/PersonalWebsite/Components/Pages/About.razor.rz.scp.css */
+#about[b-ezrf6h4eti]{
+    display: flex;
+    border: 0.1rem solid gray;
+    border-radius: 1rem;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#about_header[b-ezrf6h4eti]{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logos[b-ezrf6h4eti]{
+    display: flex;
+}
+
+#about_container[b-ezrf6h4eti]{
+    margin: auto;
+    width: 60vw;
+}
 /* _content/PersonalWebsite/Components/Pages/Home.razor.rz.scp.css */
 #header_container[b-uol6y3lfcd]{
     display: flex;
@@ -10,13 +38,7 @@
     display: flex;
     gap: 3rem;
 }
-
-#about[b-uol6y3lfcd]{
-    display: flex;
-    border: 1px solid gray;
-    border-radius: 1rem;
-    width: 60vw;
-    height: fit-content;
-    flex-wrap: wrap;
-    font-size: 3rem;
+/* _content/PersonalWebsite/Components/Pages/TechStack.razor.rz.scp.css */
+#tech-stack-container[b-5z0bwbrpu9]{
+    color: rebeccapurple;
 }
