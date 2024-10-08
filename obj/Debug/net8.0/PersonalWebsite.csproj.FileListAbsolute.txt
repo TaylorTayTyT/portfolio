@@ -60,3 +60,5 @@ C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\refint\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.pdb
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.genruntimeconfig.cache
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\ref\PersonalWebsite.dll
+C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\Experiences.razor.rz.scp.css
+C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\ExperienceBox.razor.rz.scp.css

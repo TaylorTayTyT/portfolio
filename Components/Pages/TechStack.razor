@@ -1,26 +1,37 @@
 <div id="tech-stack-container">
-    <div>
-        Languages
+    <div id ="language_container">
+        <p class="tech_title">LANGUAGES</p>
         @foreach (string language in languages){
-            <li>@language</li>
+
+            <div class="language tech_box" id = "@language"><b>@language</b>
+
+                <img class="logos" id="@string.Concat(@language, "_photo")" src="logos/@string.Concat(@language, ".png")">
+            </div>
         }
     </div>
     <div>
-        Cloud Software
+        <p class="tech_title">Cloud Software</p>
         @foreach (string cloudSoftware in cloudSoftwares){
-            <li>@cloudSoftware</li>
+            <div class="language tech_box" id = "@cloudSoftware"><b>@cloudSoftware</b>
+
+                <img class="logos" id="@string.Concat(@cloudSoftware, "_photo")" src="logos/@string.Concat(@cloudSoftware, ".png")">
+            </div>
         }
     </div>
     <div>
-        Stacks
+        <p class="tech_title">Stacks</p>
         @foreach (string stack in stacks){
-            <li>@stack</li>
+            <div class="language tech_box" id = "@stack"><b>@stack</b>
+
+                <img class="logos" id="@string.Concat(@stack, "_photo")" src="logos/@string.Concat(@stack, ".png")">
+            </div>
         }
     </div>
 </div>
 
 @code {
-    string[] languages = ["HTML/CSS", "JavaScript", "Java", "TypeScript", "Python", "C", "C++", "C#", "Julia", "SQL"];
+    string[] languages = ["HTML+CSS", "JavaScript", "Java", "TypeScript", "Python", "C", "C++", "C#", "Julia", "SQL"];
     string[] cloudSoftwares = ["Firebase", "Google Cloud", "Heroku", "Netlify", "Back4App", "Docker", "GraphQL"];
     string[] stacks = ["MongoDB", "Express", "React", "Node", "Linux", "Apache", "MySQL", "PHP"];
+
 }

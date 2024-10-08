@@ -1,0 +1,15 @@
+.experience_box{
+    text-align: center;
+    font-weight: bold;
+    width: 60vw;
+    margin: auto;
+}
+
+.company{
+    font-size: 2rem;
+    color: #055F18;
+}
+
+.summary{
+    font-size: 1.5rem;
+}
