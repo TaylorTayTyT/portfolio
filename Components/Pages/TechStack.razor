@@ -1,3 +1,26 @@
 <div id="tech-stack-container">
-ffaposfsajf
+    <div>
+        Languages
+        @foreach (string language in languages){
+            <li>@language</li>
+        }
+    </div>
+    <div>
+        Cloud Software
+        @foreach (string cloudSoftware in cloudSoftwares){
+            <li>@cloudSoftware</li>
+        }
+    </div>
+    <div>
+        Stacks
+        @foreach (string stack in stacks){
+            <li>@stack</li>
+        }
+    </div>
 </div>
+
+@code {
+    string[] languages = ["HTML/CSS", "JavaScript", "Java", "TypeScript", "Python", "C", "C++", "C#", "Julia", "SQL"];
+    string[] cloudSoftwares = ["Firebase", "Google Cloud", "Heroku", "Netlify", "Back4App", "Docker", "GraphQL"];
+    string[] stacks = ["MongoDB", "Express", "React", "Node", "Linux", "Apache", "MySQL", "PHP"];
+}

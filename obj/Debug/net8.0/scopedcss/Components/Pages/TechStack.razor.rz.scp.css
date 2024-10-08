@@ -1,3 +1,6 @@
 #tech-stack-container[b-5z0bwbrpu9]{
-    color: rebeccapurple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
 }

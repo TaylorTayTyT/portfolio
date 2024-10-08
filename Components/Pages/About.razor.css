@@ -1,20 +1,21 @@
 #about{
     display: flex;
-    border: 0.1rem solid gray;
-    border-radius: 1rem;
     width: 100%;
     height: fit-content;
     flex-wrap: wrap;
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
     margin: auto;
-    border-radius: 1rem;
-    padding: 1rem;
 }
 
 #about_header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#about_name{
+    text-decoration-line: underline;
+    font-size: 3rem;
 }
 
 #logos{
@@ -23,5 +24,15 @@
 
 #about_container{
     margin: auto;
+    margin-bottom: 4rem;
     width: 60vw;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid gray;
+    border-radius: 1rem;
+}
+
+img{
+    object-fit: contain;
+    width: 6rem;
 }

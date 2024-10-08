@@ -1,21 +1,22 @@
 /* _content/PersonalWebsite/Components/Pages/About.razor.rz.scp.css */
 #about[b-ezrf6h4eti]{
     display: flex;
-    border: 0.1rem solid gray;
-    border-radius: 1rem;
     width: 100%;
     height: fit-content;
     flex-wrap: wrap;
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
     margin: auto;
-    border-radius: 1rem;
-    padding: 1rem;
 }
 
 #about_header[b-ezrf6h4eti]{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#about_name[b-ezrf6h4eti]{
+    text-decoration-line: underline;
+    font-size: 3rem;
 }
 
 #logos[b-ezrf6h4eti]{
@@ -24,13 +25,23 @@
 
 #about_container[b-ezrf6h4eti]{
     margin: auto;
+    margin-bottom: 4rem;
     width: 60vw;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid gray;
+    border-radius: 1rem;
+}
+
+img[b-ezrf6h4eti]{
+    object-fit: contain;
+    width: 6rem;
 }
 /* _content/PersonalWebsite/Components/Pages/Home.razor.rz.scp.css */
 #header_container[b-uol6y3lfcd]{
     display: flex;
     justify-content: space-between;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     padding: 1rem;
 }
@@ -40,5 +51,8 @@
 }
 /* _content/PersonalWebsite/Components/Pages/TechStack.razor.rz.scp.css */
 #tech-stack-container[b-5z0bwbrpu9]{
-    color: rebeccapurple;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
 }

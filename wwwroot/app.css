@@ -9,5 +9,6 @@
 }
 body{
     background: url("./grain.svg"); 
+    font-family: 'Courier New', Courier, monospace;
 }
 

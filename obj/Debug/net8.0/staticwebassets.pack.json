@@ -1,48 +1,56 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css",
       "PackagePath": "staticwebassets\\PersonalWebsite.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
       "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
       "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
       "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\OFL.txt",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\OFL.txt",
       "PackagePath": "staticwebassets\\Courier_Prime\\OFL.txt"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\app.css",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\grain.svg",
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\github_logo.png",
+      "PackagePath": "staticwebassets\\github_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\grain.svg",
       "PackagePath": "staticwebassets\\grain.svg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkedin.png",
+      "PackagePath": "staticwebassets\\linkedin.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PersonalWebsite.Microsoft.AspNetCore.StaticWebAssets.props",

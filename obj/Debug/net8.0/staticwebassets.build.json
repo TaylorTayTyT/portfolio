@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4A6Ts1fAlT4OteEgNsylHGKAfoAgPTtL8uZAP1rQJz8=",
+  "Hash": "4a8xNZvyyhiVV7M1O0P3wPhXmIsEgkN0bceQnhqffJI=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PersonalWebsite\\wwwroot",
       "Source": "PersonalWebsite",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PersonalWebsite.styles.css",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PersonalWebsite.styles.css",
       "SourceId": "PersonalWebsite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "PersonalWebsite.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PersonalWebsite.styles.css"
+      "OriginalItemSpec": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PersonalWebsite.styles.css"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css",
       "SourceId": "PersonalWebsite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "PersonalWebsite.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\taylo\\PersonalWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PersonalWebsite.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\app.css",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "Courier_Prime/CourierPrime-Bold.ttf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "Courier_Prime/CourierPrime-BoldItalic.ttf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "Courier_Prime/CourierPrime-Italic.ttf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "Courier_Prime/CourierPrime-Regular.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\Courier_Prime\\OFL.txt",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\OFL.txt",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "Courier_Prime/OFL.txt",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Courier_Prime\\OFL.txt"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\favicon.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -226,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\grain.svg",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\github_logo.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\PersonalWebsite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "github_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\github_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\grain.svg",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
       "RelativePath": "grain.svg",
       "AssetKind": "All",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\grain.svg"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkedin.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "linkedin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\linkedin.png"
     }
   ]
 }

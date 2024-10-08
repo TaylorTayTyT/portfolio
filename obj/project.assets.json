@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taylo\\PersonalWebsite\\PersonalWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\taylo\\Downloads\\portfolio\\PersonalWebsite.csproj",
       "projectName": "PersonalWebsite",
-      "projectPath": "C:\\Users\\taylo\\PersonalWebsite\\PersonalWebsite.csproj",
+      "projectPath": "C:\\Users\\taylo\\Downloads\\portfolio\\PersonalWebsite.csproj",
       "packagesPath": "C:\\Users\\taylo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taylo\\PersonalWebsite\\obj\\",
+      "outputPath": "C:\\Users\\taylo\\Downloads\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\taylo\\AppData\\Roaming\\NuGet\\NuGet.Config"
