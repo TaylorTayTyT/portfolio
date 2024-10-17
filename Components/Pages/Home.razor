@@ -1,1 +1,39 @@
 ﻿@page "/"
+
+<div class="newspaperContainer">
+    <div class="newsPaperMainHeader">
+        <div class="logos">
+            <img src="github_logo.png">
+            <img src="linkedin.png" />
+        </div>
+        <div class="mainHeaderTitle">
+            The Taylor Nguyen Times
+        </div>
+        <div class="date">
+            @date
+        </div>
+    </div>
+    <div class="borderLine">
+    </div>
+    <div class="titles">
+        <div class="title volume">
+            Vol 22
+        </div>
+        <div class="title jobTitle">
+            Full Stack Developer
+        </div>
+        <div class="title">
+            taylornguyen904@gmail.com
+        </div>
+    </div>
+    <div class="borderLine">
+    </div>
+
+    <IntroBody/>
+
+</div>
+
+@code {
+    String date = DateTime.Now.ToString("dddd, MMMM dd, yyyy");
+
+}

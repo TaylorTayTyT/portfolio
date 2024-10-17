@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+    .introBodyContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .introBodyContainer{
+        display: grid;
+        flex-wrap: wrap;
+    }
+}
+
+
+.aboutMeWords{
+    border-right: solid black 1px;
+}
+
+.wildternHeader{
+    font-family: "Wildtern";
+    font-size: 3rem;
+}
+
+.aboutMe{
+    margin-top: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.specialTaylor{
+    font-family: "Falkosta";
+    font-size: 4rem;
+}
+
+.taylorDescription{
+    font-family: "Wildtern";
+    font-size: 2rem;
+}
+
+.imageBox{
+    border: solid 1px black;
+    aspect-ratio: 1 / 1;
+    width: 70%;
+    margin: auto;
+}
+
+.technologies{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subheader{
+    font-family: "Wildtern";
+    font-size: 2rem;
+    width: 45%;
+}

@@ -1,0 +1,50 @@
+.newspaperContainer{
+    width: 100vw;
+    height: fit-content;
+    background-image: url("grain.svg");
+}
+
+.newsPaperMainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.mainHeaderTitle{
+    text-align: center;
+    font-family: "Falkosta";
+    font-size: 6rem;
+}
+
+.date{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Wildtern";
+    font-size: 1rem;
+}
+
+.borderLine{
+    border: 0.25rem solid #757163;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-family: "Wildtern";
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 25%;
+    text-align: center;
+}
+
+
+img{
+    width: 8rem;
+}
