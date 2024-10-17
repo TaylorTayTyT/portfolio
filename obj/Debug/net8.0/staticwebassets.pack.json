@@ -5,24 +5,12 @@
       "PackagePath": "staticwebassets\\PersonalWebsite.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Bold.ttf"
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Falkosta.otf",
+      "PackagePath": "staticwebassets\\Falkosta.otf"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-BoldItalic.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Italic.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Regular.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\OFL.txt",
-      "PackagePath": "staticwebassets\\Courier_Prime\\OFL.txt"
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",
+      "PackagePath": "staticwebassets\\The Wildtern Regular.otf"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\app.css",

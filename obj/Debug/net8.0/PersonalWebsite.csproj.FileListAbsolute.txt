@@ -50,9 +50,7 @@ C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\staticwebassets\msbuild.buil
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PersonalWebsite.props
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PersonalWebsite.props
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\About.razor.rz.scp.css
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
-C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\TechStack.razor.rz.scp.css
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\bundle\PersonalWebsite.styles.css
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\projectbundle\PersonalWebsite.bundle.scp.css
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.dll
@@ -60,5 +58,3 @@ C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\refint\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.pdb
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.genruntimeconfig.cache
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\ref\PersonalWebsite.dll
-C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\Experiences.razor.rz.scp.css
-C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\ExperienceBox.razor.rz.scp.css
