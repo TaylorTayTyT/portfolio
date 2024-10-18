@@ -44,7 +44,12 @@
     text-align: center;
 }
 
+.linkLogo{
+    height: 6rem;
+    padding-bottom: 1rem;
+}
 
-img{
-    width: 8rem;
+.linkLogo:hover{
+    height: 6rem;
+    border-bottom: solid black 1px;
 }

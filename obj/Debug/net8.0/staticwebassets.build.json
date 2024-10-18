@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hdQefQj7/qSw1Cq9lG9rXLfz9PxSo6rFlnUQ8pNlUYs=",
+  "Hash": "0PMgwqGJrEwq8EO2bAgH2EO3TcYpas+Riupsi9C6xvk=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -264,25 +264,6 @@
       "OriginalItemSpec": "wwwroot\\logos\\C.png"
     },
     {
-      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C#.png",
-      "SourceId": "PersonalWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
-      "BasePath": "_content/PersonalWebsite",
-      "RelativePath": "logos/C#.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logos\\C#.png"
-    },
-    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C++.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -300,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logos\\C++.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "logos/CSharp.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logos\\CSharp.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Docker.png",
@@ -682,6 +682,44 @@
       "OriginalItemSpec": "wwwroot\\logos\\TypeScript.png"
     },
     {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\mixue.jpg",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "mixue.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mixue.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\pureGrain.svg",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "pureGrain.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pureGrain.svg"
+    },
+    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -699,6 +737,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\The Wildtern Regular.otf"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "trapped.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\trapped.gif"
     }
   ]
 }

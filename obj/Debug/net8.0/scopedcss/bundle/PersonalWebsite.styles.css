@@ -45,15 +45,20 @@
     text-align: center;
 }
 
+.linkLogo[b-uol6y3lfcd]{
+    height: 6rem;
+    padding-bottom: 1rem;
+}
 
-img[b-uol6y3lfcd]{
-    width: 8rem;
+.linkLogo:hover[b-uol6y3lfcd]{
+    height: 6rem;
+    border-bottom: solid black 1px;
 }
 /* _content/PersonalWebsite/Components/Pages/IntroBody.razor.rz.scp.css */
 @media screen and (min-width: 768px) {
     .introBodyContainer[b-diq9kmjm6v]{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 60%;
         grid-template-rows: 1fr;
         flex-wrap: wrap;
     }
@@ -66,6 +71,22 @@ img[b-uol6y3lfcd]{
     }
 }
 
+.powerful[b-diq9kmjm6v]{
+    font-size: 4rem;
+    background: linear-gradient(to right, #ff7e5f, #c0ad00);
+    background-clip: text;
+    color: transparent;
+}
+
+.interactive[b-diq9kmjm6v]{
+    font-size: 4rem;
+    color: #cc4b00;
+}
+
+.creativity[b-diq9kmjm6v]{
+    font-size: 4rem;
+    color: #0081CC;
+}
 
 .aboutMeWords[b-diq9kmjm6v]{
     border-right: solid black 1px;
@@ -93,10 +114,17 @@ img[b-uol6y3lfcd]{
 }
 
 .imageBox[b-diq9kmjm6v]{
+    display: flex;
     border: solid 1px black;
     aspect-ratio: 1 / 1;
     width: 70%;
     margin: auto;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("trapped.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(1) blur(2px) contrast(1.2) sepia(1);
 }
 
 .technologies[b-diq9kmjm6v]{
@@ -104,10 +132,102 @@ img[b-uol6y3lfcd]{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .subheader[b-diq9kmjm6v]{
     font-family: "Wildtern";
     font-size: 2rem;
     width: 45%;
+}
+
+.logoContainer[b-diq9kmjm6v]{
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.logos[b-diq9kmjm6v]{
+    display: inline-block;
+    will-change: transform;
+    overflow-x: hidden;
+    animation: slide-b-diq9kmjm6v 8s infinite linear;
+}
+
+.logoImg[b-diq9kmjm6v]{
+    padding: 1rem;
+    height: 5rem;
+}
+
+.wanted[b-diq9kmjm6v]{
+    position: absolute;
+    font-family: "Wildtern";
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+}
+
+.imgDivider[b-diq9kmjm6v]{
+    height: 6rem;
+    width: 100%;
+    border: solid 0.1rem rgba(0, 0, 0, 0.25);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgDividerimg[b-diq9kmjm6v]{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1);
+    mask: radial-gradient(#000, #0009);
+    opacity: 0.6;
+
+}
+
+@keyframes slide-b-diq9kmjm6v {
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+/* _content/PersonalWebsite/Components/Pages/Projects.razor.rz.scp.css */
+.projectsContainer[b-g2xt9y02h9]{
+    font-family: "Wildtern";
+    background-image: url("pureGrain.svg");
+}
+.projectsHeader[b-g2xt9y02h9]{
+    font-size: 8rem;
+    padding: 5rem;
+}
+.projectFlex[b-g2xt9y02h9]{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.projectsGrid[b-g2xt9y02h9]{
+    width: 25%;
+    aspect-ratio:  1 / 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project[b-g2xt9y02h9]{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.projectDisplay[b-g2xt9y02h9]{
+    width: 40%;
+    border: solid 1px black;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
 }

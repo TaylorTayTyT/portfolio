@@ -1,0 +1,35 @@
+.projectsContainer{
+    font-family: "Wildtern";
+    background-image: url("pureGrain.svg");
+}
+.projectsHeader{
+    font-size: 8rem;
+    padding: 5rem;
+}
+.projectFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.projectsGrid{
+    width: 25%;
+    aspect-ratio:  1 / 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.projectDisplay{
+    width: 40%;
+    border: solid 1px black;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+}

@@ -59,3 +59,4 @@ C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.pdb
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.genruntimeconfig.cache
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\ref\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\IntroBody.razor.rz.scp.css
+C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\scopedcss\Components\Pages\Projects.razor.rz.scp.css

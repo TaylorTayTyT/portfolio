@@ -49,16 +49,16 @@
       "PackagePath": "staticwebassets\\logos\\Back4App.png"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C#.png",
-      "PackagePath": "staticwebassets\\logos\\C#.png"
-    },
-    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C++.png",
       "PackagePath": "staticwebassets\\logos\\C++.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C.png",
       "PackagePath": "staticwebassets\\logos\\C.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
+      "PackagePath": "staticwebassets\\logos\\CSharp.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Docker.png",
@@ -139,6 +139,18 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\TypeScript.png",
       "PackagePath": "staticwebassets\\logos\\TypeScript.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\mixue.jpg",
+      "PackagePath": "staticwebassets\\mixue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\pureGrain.svg",
+      "PackagePath": "staticwebassets\\pureGrain.svg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",
+      "PackagePath": "staticwebassets\\trapped.gif"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PersonalWebsite.Microsoft.AspNetCore.StaticWebAssets.props",

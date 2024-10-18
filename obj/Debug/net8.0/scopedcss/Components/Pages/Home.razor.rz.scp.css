@@ -44,7 +44,12 @@
     text-align: center;
 }
 
+.linkLogo[b-uol6y3lfcd]{
+    height: 6rem;
+    padding-bottom: 1rem;
+}
 
-img[b-uol6y3lfcd]{
-    width: 8rem;
+.linkLogo:hover[b-uol6y3lfcd]{
+    height: 6rem;
+    border-bottom: solid black 1px;
 }

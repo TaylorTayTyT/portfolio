@@ -11,3 +11,6 @@
 :root{
     --newspaper-background-color: #F5EED2;
 }
+html{
+    overflow-x: hidden;
+}

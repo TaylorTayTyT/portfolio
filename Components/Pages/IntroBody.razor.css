@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     .introBodyContainer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 40% 60%;
         grid-template-rows: 1fr;
         flex-wrap: wrap;
     }
@@ -14,6 +14,22 @@
     }
 }
 
+.powerful{
+    font-size: 4rem;
+    background: linear-gradient(to right, #ff7e5f, #c0ad00);
+    background-clip: text;
+    color: transparent;
+}
+
+.interactive{
+    font-size: 4rem;
+    color: #cc4b00;
+}
+
+.creativity{
+    font-size: 4rem;
+    color: #0081CC;
+}
 
 .aboutMeWords{
     border-right: solid black 1px;
@@ -41,10 +57,17 @@
 }
 
 .imageBox{
+    display: flex;
     border: solid 1px black;
     aspect-ratio: 1 / 1;
     width: 70%;
     margin: auto;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("trapped.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: grayscale(1) blur(2px) contrast(1.2) sepia(1);
 }
 
 .technologies{
@@ -52,10 +75,66 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .subheader{
     font-family: "Wildtern";
     font-size: 2rem;
     width: 45%;
+}
+
+.logoContainer{
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.logos{
+    display: inline-block;
+    will-change: transform;
+    overflow-x: hidden;
+    animation: slide 8s infinite linear;
+}
+
+.logoImg{
+    padding: 1rem;
+    height: 5rem;
+}
+
+.wanted{
+    position: absolute;
+    font-family: "Wildtern";
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+}
+
+.imgDivider{
+    height: 6rem;
+    width: 100%;
+    border: solid 0.1rem rgba(0, 0, 0, 0.25);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgDividerimg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1);
+    mask: radial-gradient(#000, #0009);
+    opacity: 0.6;
+
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
 }

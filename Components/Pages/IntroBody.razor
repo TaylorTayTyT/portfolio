@@ -5,17 +5,56 @@
         </div>
         <img>
         <div class="taylorDescription">
-            <span class="specialTaylor">Taylor Nguyen</span> is armed and dangerous. he is a powerful full stack
+            <span class="specialTaylor">Taylor Nguyen</span> is <u>armed</u> and <u>dangerous</u>. <br/>He is a <span class="powerful">powerful</span> full stack
             mage bent on injecting our world with
-            interactivity and creativity.
+            <span class="interactive">interactivity</span> and <span class="creativity">creativity</span>. 
+        </div>
+        <div class="imgDivider">
+            <img class="imgDividerimg" src="mixue.jpg">
         </div>
 
         <div class="technologies">
             <div class="languages subheader">
-                Languages
+                Languages/Frameworks
+                <div class="logoContainer">
+                    <div class="logos">
+                        @foreach (var language in languages)
+                        {
+                            {
+                                <img class="logoImg" src="./logos/@language">
+                            }
+                        }
+                    </div>
+                    <div class="logos">
+                        @foreach (var language in languages)
+                        {
+                            {
+                                <img class="logoImg" src="./logos/@language">
+                            }
+                        }
+                    </div>
+                </div>
             </div>
             <div class="cloud subheader">
                 Cloud Software
+                <div class="logoContainer">
+                    <div class="logos">
+                        @foreach (var cloud in clouds)
+                        {
+                            {
+                                <img class="logoImg" src="./logos/@cloud">
+                            }
+                        }
+                    </div>
+                    <div class="logos">
+                        @foreach (var cloud in clouds)
+                        {
+                            {
+                                <img class="logoImg" src="./logos/@cloud">
+                            }
+                        }
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -25,7 +64,16 @@
             Have you seen this developer?
         </div>
         <div class="imageBox">
-            <img>
+            <div class="wanted">
+                WANTED
+            </div>
         </div>
     </div>
 </div>
+
+@code {
+    string[] languages = ["HTML+CSS.png", "JavaScript.png", "Java.png", "TypeScript.png", "Python.png", "SQL.png",
+"CSharp.png", "React.png", "Node.png", "Linux.png"];
+    string[] clouds = ["Firebase.png", "Google Cloud.png", "Heroku.png", "Docker.png", "GraphQL.png", "MongoDB.png",
+"Apache.png", "MySQL.png", "Express.png"];
+}
