@@ -6,11 +6,27 @@
     font-size: 8rem;
     padding: 5rem;
 }
-.projectFlex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+
+@media screen and (min-width: 768px) {
+    
+    .projectFlex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .projectFlex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 .projectsGrid{
     width: 25%;
@@ -26,26 +42,30 @@
     width: 40%;
     border: solid 1px black;
     border-radius: 2rem;
-    aspect-ratio: 1 / 1;
     padding: 1rem;
     object-fit: cover;
 }
 
 .projectDisplay{
     display: block;
+    background-color: #FFDCA8;
+    border: solid 0.5rem black;
+    height: fit-content;
 }
 
 .projectDisplay .details{
     text-align: center;
     height: fit-content;
-
+    font-family: "Falkosta";
+    line-height: 3rem;
+    padding: 1rem;
 }
 .projectDisplay .details .title{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .projectDisplay .details .description{
-    font-family: "Falkosta";
+    font-size: 1rem;
 }
 
 .second > .grid{
@@ -62,7 +82,7 @@
 }
 
 .second{
-    margin-top: 2rem;
+    
 }
 
 .gizmos{
@@ -71,6 +91,35 @@
 }
 
 .techs{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.techs img{
+    max-width: 100%;
+}
+
+.chart img {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links a{
+    cursor: pointer;
+}
+
+.github{
+    width: 70%;
+    word-break: break-word;
 }

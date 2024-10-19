@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1OrGKjHc55x+5sK5glwB8ydseZ2cPeBHCPVfFeQ1Bpg=",
+  "Hash": "uKskMX27c6ioUM73x4nY7WhuuhS442emBpCIjEWMfhM=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -188,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\grain.svg"
     },
     {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkButton.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "linkButton.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\linkButton.png"
+    },
+    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkedin.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -281,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logos\\C++.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Chrome.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "logos/Chrome.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logos\\Chrome.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
@@ -509,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logos\\Linux.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MatterJs.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "logos/MatterJs.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logos\\MatterJs.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MongoDB.png",
@@ -794,6 +851,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pureGrain.svg"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\radio.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "radio.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\radio.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",

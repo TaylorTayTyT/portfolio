@@ -6,11 +6,27 @@
     font-size: 8rem;
     padding: 5rem;
 }
-.projectFlex[b-g2xt9y02h9]{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+
+@media screen and (min-width: 768px) {
+    
+    .projectFlex[b-g2xt9y02h9]{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .projectFlex[b-g2xt9y02h9]{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 .projectsGrid[b-g2xt9y02h9]{
     width: 25%;
@@ -26,26 +42,30 @@
     width: 40%;
     border: solid 1px black;
     border-radius: 2rem;
-    aspect-ratio: 1 / 1;
     padding: 1rem;
     object-fit: cover;
 }
 
 .projectDisplay[b-g2xt9y02h9]{
     display: block;
+    background-color: #FFDCA8;
+    border: solid 0.5rem black;
+    height: fit-content;
 }
 
 .projectDisplay .details[b-g2xt9y02h9]{
     text-align: center;
     height: fit-content;
-
+    font-family: "Falkosta";
+    line-height: 3rem;
+    padding: 1rem;
 }
 .projectDisplay .details .title[b-g2xt9y02h9]{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .projectDisplay .details .description[b-g2xt9y02h9]{
-    font-family: "Falkosta";
+    font-size: 1rem;
 }
 
 .second > .grid[b-g2xt9y02h9]{
@@ -62,7 +82,7 @@
 }
 
 .second[b-g2xt9y02h9]{
-    margin-top: 2rem;
+    
 }
 
 .gizmos[b-g2xt9y02h9]{
@@ -71,6 +91,35 @@
 }
 
 .techs[b-g2xt9y02h9]{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.techs img[b-g2xt9y02h9]{
+    max-width: 100%;
+}
+
+.chart img[b-g2xt9y02h9] {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.links[b-g2xt9y02h9]{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links a[b-g2xt9y02h9]{
+    cursor: pointer;
+}
+
+.github[b-g2xt9y02h9]{
+    width: 70%;
+    word-break: break-word;
 }

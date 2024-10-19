@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\grain.svg"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkButton.png",
+      "PackagePath": "staticwebassets\\linkButton.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkedin.png",
       "PackagePath": "staticwebassets\\linkedin.png"
     },
@@ -59,6 +63,10 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
       "PackagePath": "staticwebassets\\logos\\CSharp.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Chrome.png",
+      "PackagePath": "staticwebassets\\logos\\Chrome.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Docker.png",
@@ -103,6 +111,10 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Linux.png",
       "PackagePath": "staticwebassets\\logos\\Linux.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MatterJs.png",
+      "PackagePath": "staticwebassets\\logos\\MatterJs.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MongoDB.png",
@@ -163,6 +175,10 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\pureGrain.svg",
       "PackagePath": "staticwebassets\\pureGrain.svg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\radio.png",
+      "PackagePath": "staticwebassets\\radio.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",

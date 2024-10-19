@@ -7,13 +7,15 @@ public class ProjectObject
 
     public string[] technologies { get; set; }
     public string img { get; set; }
+    public string websiteLink { get; set; }
 
-    public ProjectObject(string Title, string description, string github, string[] technologies, string img)
+    public ProjectObject(string Title, string description, string github, string[] technologies, string img, string websiteLink)
     {
         this.Title = Title;
         this.description = description;
         this.github = github;
         this.technologies = technologies;
         this.img = img;
+        this.websiteLink = websiteLink;
     }
 }

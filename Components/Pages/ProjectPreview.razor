@@ -11,13 +11,19 @@
     
 
     [Parameter]
-    public string title { get; set; } // This property will be bound to the 'title' passed from the parent
+    public required string title { get; set; } // This property will be bound to the 'title' passed from the parent
     [Parameter]
-    public string img { get; set; }
+    public required string img { get; set; }
     [Parameter]
-    public string[] technologies {get;set;}
+    public required string[] technologies {get;set;}
     [Parameter]
-    public Action<ProjectObject> setActiveProject {get; set;}
+    public required Action<ProjectObject> setActiveProject {get; set;}
+    [Parameter]
+    public required string github {get; set; }
+    [Parameter]
+    public required string description {get; set; }
+    [Parameter]
+    public string websiteLink {get; set; }
 
     private string divStyle;
 
@@ -29,7 +35,10 @@
 
     private void ChangeState(){
         if (setActiveProject != null){
-            ProjectObject project = new ProjectObject(title, "sample description", "sample github", technologies, img);
+            if(websiteLink == null) {
+                websiteLink = ""; 
+            }
+            ProjectObject project = new ProjectObject(title, description, github, technologies, img, websiteLink);
             setActiveProject.Invoke(project);
         }
     }
