@@ -21,15 +21,56 @@
     padding: 1rem;
 }
 
-.project{
-    aspect-ratio: 1 / 1;
-    width: 100%;
+.projectDisplay{
+    display: flex;
+    width: 40%;
     border: solid 1px black;
+    border-radius: 2rem;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+    object-fit: cover;
 }
 
 .projectDisplay{
-    width: 40%;
+    display: block;
+}
+
+.projectDisplay .details{
+    text-align: center;
+    height: fit-content;
+
+}
+.projectDisplay .details .title{
+    font-size: 2rem;
+}
+
+.projectDisplay .details .description{
+    font-family: "Falkosta";
+}
+
+.second > .grid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.projectDisplay > .second > .grid > .projectImg{
     border: solid 1px black;
+    border-radius: 2rem;
     aspect-ratio: 1 / 1;
-    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.second{
+    margin-top: 2rem;
+}
+
+.gizmos{
+    display: flex;
+    flex-direction: column;
+}
+
+.techs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

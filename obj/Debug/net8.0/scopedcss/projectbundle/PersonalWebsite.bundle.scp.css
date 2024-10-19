@@ -195,6 +195,26 @@
     }
     
 }
+/* _content/PersonalWebsite/Components/Pages/ProjectPreview.razor.rz.scp.css */
+.project[b-5k376ofvbh]{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    cursor: pointer;
+    filter: grayscale(1) blur(2px) contrast(1.2);
+    object-fit: contain;
+}
+
+.project:hover[b-5k376ofvbh]{
+    filter: saturate(100%) brightness(100%) contrast(1);
+}
+.projectContainer[b-5k376ofvbh]{
+    text-align: center;
+}
 /* _content/PersonalWebsite/Components/Pages/Projects.razor.rz.scp.css */
 .projectsContainer[b-g2xt9y02h9]{
     font-family: "Wildtern";
@@ -219,15 +239,56 @@
     padding: 1rem;
 }
 
-.project[b-g2xt9y02h9]{
-    aspect-ratio: 1 / 1;
-    width: 100%;
+.projectDisplay[b-g2xt9y02h9]{
+    display: flex;
+    width: 40%;
     border: solid 1px black;
+    border-radius: 2rem;
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+    object-fit: cover;
 }
 
 .projectDisplay[b-g2xt9y02h9]{
-    width: 40%;
+    display: block;
+}
+
+.projectDisplay .details[b-g2xt9y02h9]{
+    text-align: center;
+    height: fit-content;
+
+}
+.projectDisplay .details .title[b-g2xt9y02h9]{
+    font-size: 2rem;
+}
+
+.projectDisplay .details .description[b-g2xt9y02h9]{
+    font-family: "Falkosta";
+}
+
+.second > .grid[b-g2xt9y02h9]{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.projectDisplay > .second > .grid > .projectImg[b-g2xt9y02h9]{
     border: solid 1px black;
+    border-radius: 2rem;
     aspect-ratio: 1 / 1;
-    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+.second[b-g2xt9y02h9]{
+    margin-top: 2rem;
+}
+
+.gizmos[b-g2xt9y02h9]{
+    display: flex;
+    flex-direction: column;
+}
+
+.techs[b-g2xt9y02h9]{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

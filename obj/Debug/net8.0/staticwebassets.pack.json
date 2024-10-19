@@ -145,6 +145,22 @@
       "PackagePath": "staticwebassets\\mixue.jpg"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anon.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\anon.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\mockux.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\mockux.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\spotify.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\tsheetx.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\tsheetx.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\pureGrain.svg",
       "PackagePath": "staticwebassets\\pureGrain.svg"
     },

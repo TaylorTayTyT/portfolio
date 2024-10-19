@@ -4,21 +4,55 @@
     </div>
     <div class="projectFlex">
         <div class="projectsGrid">
-            <div class="project">
-                project
-            </div>
-            <div class="project">
-                project
-            </div>
-            <div class="project">
-                project
-            </div>
-            <div class="project">
-                project
-            </div>
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MongoDB.png" })"  setActiveProject="setActiveProject" title="Anonymous Tattoos" img="anon.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MongoDB.png" })" setActiveProject="setActiveProject" title="Mock UX/UI Portfolio Site" img="mockux.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MongoDB.png" })" setActiveProject="setActiveProject" title="Spotify Playlist Generator" img="spotify.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MongoDB.png" })" setActiveProject="setActiveProject" title="TimesheetX Automatic Fill" img="tsheetx.png" />
         </div>
         <div class="projectDisplay">
-            display
+            <div class="details">
+                <div class="title">@title</div>
+                <div class="description">@description</div>
+            </div>
+            <div class="second">
+                <div class="grid">
+                    <div class="projectImg" style=@(imgName.Length > 0 ? imgName : "")></div>
+                    <div class="gizmos">
+                        <div class="techs">
+                            @foreach (var tech in technologies){
+                                <div>@tech</div>
+                            }
+                        </div>
+                        <div class="chart">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+
+            </div>
         </div>
     </div>
 </div>
+
+@code {
+    private string imgName = "";
+    private string title;
+    private string description;
+    private string github;
+    private string[] technologies = [""];
+
+    // This method will be called from child components
+    private void setActiveProject(ProjectObject project)
+    {
+        imgName = "background-image: url(\"./projectpreviewimages/" + project.img + "\")";
+        title = project.Title;
+        description = project.description;
+        github = project.github;
+        technologies = project.technologies;
+        StateHasChanged();
+    }
+
+    // You can use this method to change the active project directly
+}
