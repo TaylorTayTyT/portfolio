@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\audio\\Date.mp3",
+      "PackagePath": "staticwebassets\\audio\\Date.mp3"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\audio\\Lieb.mp3",
+      "PackagePath": "staticwebassets\\audio\\Lieb.mp3"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\audio\\Stupid.mp3",
+      "PackagePath": "staticwebassets\\audio\\Stupid.mp3"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },

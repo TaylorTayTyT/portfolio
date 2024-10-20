@@ -68,15 +68,16 @@
     text-align: center;
     height: fit-content;
     font-family: "Falkosta";
-    line-height: 3rem;
+    line-height: 4rem;
     padding: 1rem;
 }
 .projectDisplay .details .title{
     font-size: 4rem;
+    text-decoration: underline;
 }
 
 .projectDisplay .details .description{
-    font-size: 1rem;
+    font-size: clamp(1rem, 2vw, 5rem);
 }
 
 .second > .grid{
@@ -100,7 +101,6 @@
     width: 90%;
     margin: auto;
     filter: none;
-    transition: 2s;
 }
 
 .gizmos{
@@ -124,7 +124,6 @@
     border-radius: 50%;
     padding: 0.25rem;
     filter: grayscale(1);
-    transition: 2s;
 }
 .techs img:hover{
     width: 45%;
@@ -135,7 +134,6 @@
     padding: 0.25rem;
     filter: none;
     animation: spin 5s infinite linear;
-    transition: 2s;
 }
 
 @keyframes spin {
@@ -145,11 +143,6 @@
     to {
         transform: rotate(360deg);
     }
-}
-
-.chart img {
-    padding-top: 1rem;
-    width: 100%;
 }
 
 .links{
@@ -176,5 +169,57 @@
 
 .websiteLink img:hover{
     filter: none; 
-    transition: 1s;
+}
+
+.radio{
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    padding: 0.5rem;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+}
+
+.FM{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.radioButton{
+    aspect-ratio: 1 / 1;
+    width: 10%;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin: auto;
+    cursor: pointer;
+}
+
+.radioButton:hover{
+    background-color: blanchedalmond;
+}
+
+.radioControls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.radioControls img{
+    width: 50%;
+}
+
+.caret{
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.amfmcontroller{
+    position: relative;
 }

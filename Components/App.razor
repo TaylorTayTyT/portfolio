@@ -18,11 +18,25 @@
     <script src="_framework/blazor.web.js"></script>
     <script>
     async function playSoundEffect() {
-        var audio = document.getElementById("soundEffect");
+        const audio = document.getElementById("radioTransition");
+        if(!audio) return; 
+        const audios = document.getElementsByTagName("audio");
+        Array.from(audios).forEach(item => {
+            item.pause(); 
+        });
         audio.play();
         setTimeout(()=>{
             audio.pause();
         }, 200)
+    }
+
+    async function playStation(audId){
+        const audio = document.getElementById(audId);
+        const audios = document.getElementsByTagName("audio");
+        Array.from(audios).forEach(item => {
+            item.pause(); 
+        });
+        audio.play();
     }
 </script>
 

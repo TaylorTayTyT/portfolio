@@ -1,46 +1,90 @@
+@inject IJSRuntime JS
 <div class="projectsContainer">
     <div class="projectsHeader">
         Crimes Committed
     </div>
     <div class="projectFlex">
         <div class="projectsGrid">
-            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MySQL.png" })" websiteLink="https://anon1-chns39v1.b4a.run/" github="https://github.com/TaylorTayTyT/Anonymous-Tattoos" description="Share your awesome tattoos!" setActiveProject="setActiveProject" title="Anonymous Tattoos" img="anon.png" />
-            <ProjectPreview technologies="@(new string[] { "React.png", "HTML+CSS.png", "Netlify.png", "MatterJs.png" })" websiteLink="https://tracynguyen6.netlify.app/" github="https://github.com/TaylorTayTyT/Tracy_website" description="Meet your newest UX/UI designer!" setActiveProject="setActiveProject" title="Mock UX/UI Portfolio Site" img="mockux.png" />
-            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "Node.png" })" github="https://github.com/TaylorTayTyT/home_screen" description="Generate random spotify playlists based on keywords!" setActiveProject="setActiveProject" title="Spotify Playlist Generator" img="spotify.png" />
-            <ProjectPreview technologies="@(new string[] { "Chrome.png", "JavaScript.png", "HTML+CSS.png"})" github="https://github.com/TaylorTayTyT/FTimeSheetX" description="Skip the manual labor and get paid!" setActiveProject="setActiveProject" title="TimesheetX Automatic Fill" img="tsheetx.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MySQL.png" })"
+                websiteLink="https://anon1-chns39v1.b4a.run/" github="https://github.com/TaylorTayTyT/Anonymous-Tattoos"
+                description="Share your awesome tattoos!" setActiveProject="setActiveProject" title="Anonymous Tattoos"
+                img="anon.png" />
+            <ProjectPreview
+                technologies="@(new string[] { "React.png", "HTML+CSS.png", "Netlify.png", "MatterJs.png" })"
+                websiteLink="https://tracynguyen6.netlify.app/" github="https://github.com/TaylorTayTyT/Tracy_website"
+                description="Meet your newest UX/UI designer!" setActiveProject="setActiveProject"
+                title="Mock UX/UI Portfolio Site" img="mockux.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "Node.png" })"
+                github="https://github.com/TaylorTayTyT/home_screen"
+                description="Generate random spotify playlists based on keywords!" setActiveProject="setActiveProject"
+                title="Spotify Playlist Generator" img="spotify.png" />
+            <ProjectPreview technologies="@(new string[] { "Chrome.png", "JavaScript.png", "HTML+CSS.png"})"
+                github="https://github.com/TaylorTayTyT/FTimeSheetX" description="Skip the manual labor and get paid!"
+                setActiveProject="setActiveProject" title="TimesheetX Automatic Fill" img="tsheetx.png" />
         </div>
-        @if (defaultState) {
+        @if (defaultState)
+        {
 
-        } else{
-        <div class="projectDisplay">
-            <div class="details">
-                <div class="title">@title</div>
-                <div class="description">@description</div>
-            </div>
-            <div class="second">
-                <div class="grid">
-                    <div class="projectImg" style=@(imgName.Length > 0 ? imgName : "")></div>
-                    <div class="gizmos">
-                        <div class="techs">
-                            @foreach (var tech in technologies){
-                                <img src=@($"./logos/{tech}")>
-                            }
-                        </div>
-                        <div class="chart">
-                            <img src="radio.png">
+        }
+        else
+        {
+            <div class="projectDisplay">
+                <div class="details">
+                    <div class="title">@title</div>
+                    <div class="description">@description</div>
+                </div>
+                <div class="second">
+                    <div class="grid">
+                        <div class="projectImg" style=@(imgName.Length > 0 ? imgName : "")></div>
+                        <div class="gizmos">
+                            <div class="techs">
+                                @foreach (var tech in technologies)
+                                {
+                                    <img src=@($"./logos/{tech}")>
+                                }
+                            </div>
+                            <div class="chart">
+                                <div class="radio">
+                                    <div class="amfmcontroller">
+                                        <div class="caret" style="@divstyle"></div>
+                                        <div class="FM">
+                                            <div>AM</div>
+                                            <div>88</div>
+                                            <div>92</div>
+                                            <div>96</div>
+                                            <div>100</div>
+                                        </div>
+                                        <div class="FM">
+                                            <div>FM</div>
+                                            <div>88</div>
+                                            <div>92</div>
+                                            <div>96</div>
+                                            <div>100</div>
+                                        </div>
+                                    </div>
+                                    <div class="radioControls">
+                                        <div class="radioButton" @onclick="onLeftClick"></div>
+                                        <img src="sound.png">
+                                        <div class="radioButton" @onclick="onRightClick"></div>
+                                    </div>
+                                </div>
+                                <audio id="radioTransition" src="static.mp3"></audio>
+                                <audio id="Date" src="./audio/Date.mp3"></audio>
+                                <audio id="Stupid" src="./audio/Stupid.mp3"></audio>
+                                <audio id="Lieb" src="./audio/Lieb.mp3"></audio>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="links">
-                <div class="github">
-                    @github
+                <div class="links">
+                    <div class="github">
+                        @github
+                    </div>
+                    <a class="websiteLink" href="@websiteLink">
+                        <img src="linkButton.png">
+                    </a>
                 </div>
-                <a class="websiteLink" href="@websiteLink">
-                <img src="linkButton.png">
-                </a>
             </div>
-        </div>
         }
     </div>
 </div>
@@ -51,8 +95,10 @@
     private string description;
     private string github;
     private string[] technologies = [""];
-    private bool defaultState = true; 
-    private string websiteLink; 
+    private bool defaultState = true;
+    private string websiteLink;
+    private int left = 0;
+    private string divstyle = "";
 
     // This method will be called from child components
     private void setActiveProject(ProjectObject project)
@@ -63,13 +109,60 @@
         github = project.github;
         technologies = project.technologies;
         defaultState = false;
-        if(project.websiteLink == ""){
+        if (project.websiteLink == "")
+        {
             websiteLink = github;
         }
-        else{
+        else
+        {
             websiteLink = project.websiteLink;
         }
 
+        StateHasChanged();
+    }
+
+    private async Task PlayStat(){
+        string audId = left switch {
+            10 => "Stupid",
+            40 => "Date",
+            70=> "Lieb",
+            _ => ""
+        };
+
+        if(audId == ""){
+            return;
+        }
+
+        await JS.InvokeVoidAsync("playStation", audId);
+    }
+
+    private async Task PlaySound()
+    {
+        await JS.InvokeVoidAsync("playSoundEffect");
+    }
+
+    private void onLeftClick()
+    {
+        if (left <= 0)
+        {
+            return;
+        }
+        left -= 10;
+        divstyle = $"left: {left.ToString()}%";
+        PlaySound();
+        PlayStat();
+        StateHasChanged();
+    }
+    private void onRightClick()
+    {
+        if (left >= 90)
+        {
+            return;
+        }
+        left += 10;
+        divstyle = $"left: {left.ToString()}%";
+        PlaySound();
+        PlayStat();
         StateHasChanged();
     }
 
