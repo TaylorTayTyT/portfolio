@@ -9,6 +9,7 @@
     cursor: pointer;
     filter: grayscale(1) blur(2px) contrast(1.2);
     object-fit: contain;
+    transition: all 5s !important;
 }
 
 .project:hover[b-5k376ofvbh]{
