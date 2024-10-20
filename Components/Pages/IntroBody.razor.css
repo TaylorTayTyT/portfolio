@@ -9,8 +9,10 @@
 
 @media screen and (max-width: 768px) {
     .introBodyContainer{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -44,6 +46,7 @@
     margin-top: 1rem;
     padding: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .specialTaylor{
@@ -54,34 +57,53 @@
 .taylorDescription{
     font-family: "Wildtern";
     font-size: 2rem;
+    width: 100%;
+    word-break: break-word;
 }
 
 .imageBox{
     display: flex;
     border: solid 1px black;
-    aspect-ratio: 1 / 1;
     width: 70%;
+    aspect-ratio: 1 / 1;
     margin: auto;
     justify-content: center;
     align-items: flex-end;
     background-image: url("trapped.gif");
     background-size: contain;
-    background-repeat: no-repeat;
     filter: grayscale(1) blur(2px) contrast(1.2) sepia(1);
 }
-
-.technologies{
-    padding-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    flex-wrap: wrap;
+@media screen and (min-width: 768px) {
+    .technologies{
+        padding-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .technologies{
+        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
 
 .subheader{
     font-family: "Wildtern";
     font-size: 2rem;
     width: 45%;
+}
+@media screen and (max-width: 768px) {
+    .subheader{
+        width: 100%;
+    }
 }
 
 .logoContainer{
@@ -107,7 +129,7 @@
     position: absolute;
     font-family: "Wildtern";
     text-align: center;
-    font-size: 7rem;
+    font-size: 8vw;
     color: white;
 }
 

@@ -3,8 +3,10 @@
     background-image: url("pureGrain.svg");
 }
 .projectsHeader{
-    font-size: 8rem;
+    font-size: 8vw;
     padding: 5rem;
+    word-break: break-word;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,7 +23,7 @@
 @media screen and (max-width: 768px) {
     .projectFlex{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         align-content: center;
         flex-wrap: wrap;
@@ -36,6 +38,11 @@
     gap: 1rem;
     padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+    .projectsGrid{
+        width: 90%;
+    }
+}
 
 .projectDisplay{
     display: flex;
@@ -45,11 +52,15 @@
     padding: 1rem;
     object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+    .projectDisplay{
+        width: 90%;
+    }
+}
 
 .projectDisplay{
     display: block;
-    background-color: #FFDCA8;
-    border: solid 0.5rem black;
+    border: solid 1px black;
     height: fit-content;
 }
 
@@ -79,15 +90,23 @@
     aspect-ratio: 1 / 1;
     width: 90%;
     margin: auto;
+    filter: grayscale(1);
 }
 
-.second{
-    
+.projectDisplay > .second > .grid > .projectImg:hover{
+    border: solid 1px black;
+    border-radius: 2rem;
+    aspect-ratio: 1 / 1;
+    width: 90%;
+    margin: auto;
+    filter: none;
+    transition: 2s;
 }
 
 .gizmos{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .techs{
@@ -98,7 +117,34 @@
 }
 
 .techs img{
-    max-width: 100%;
+    width: 45%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 0.25rem;
+    filter: grayscale(1);
+    transition: 2s;
+}
+.techs img:hover{
+    width: 45%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 0.25rem;
+    filter: none;
+    animation: spin 5s infinite linear;
+    transition: 2s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .chart img {
@@ -122,4 +168,13 @@
 .github{
     width: 70%;
     word-break: break-word;
+}
+
+.websiteLink img{
+    filter: grayscale(1);
+}
+
+.websiteLink img:hover{
+    filter: none; 
+    transition: 1s;
 }
