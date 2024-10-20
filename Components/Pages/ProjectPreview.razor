@@ -1,0 +1,45 @@
+<div @onclick = "ChangeState" class="projectContainer">
+    <div class="project @((active ? "active" : ""))" style="@divStyle">
+    </div>
+    <div>
+        @title
+    </div>
+</div>
+
+@code {
+    @inject IJSRuntime JS 
+    
+
+    [Parameter]
+    public required string title { get; set; } // This property will be bound to the 'title' passed from the parent
+    [Parameter]
+    public required string img { get; set; }
+    [Parameter]
+    public required string[] technologies {get;set;}
+    [Parameter]
+    public required Action<ProjectObject> setActiveProject {get; set;}
+    [Parameter]
+    public required string github {get; set; }
+    [Parameter]
+    public required string description {get; set; }
+    [Parameter]
+    public string websiteLink {get; set; }
+
+    private string divStyle;
+
+    private bool active = false; 
+
+    protected override void OnParametersSet(){
+        divStyle = $"background-image: url(\"projectpreviewimages/{img}\")"; 
+    }
+
+    private void ChangeState(){
+        if (setActiveProject != null){
+            if(websiteLink == null) {
+                websiteLink = ""; 
+            }
+            ProjectObject project = new ProjectObject(title, description, github, technologies, img, websiteLink);
+            setActiveProject.Invoke(project);
+        }
+    }
+}

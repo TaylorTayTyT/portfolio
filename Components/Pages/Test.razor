@@ -1,0 +1,15 @@
+@page "/test"
+
+
+<p role="status">Current count: @currentCount</p>
+
+<button EnableEventValidation="false" class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 3;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

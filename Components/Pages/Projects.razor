@@ -1,0 +1,77 @@
+<div class="projectsContainer">
+    <div class="projectsHeader">
+        Crimes Committed
+    </div>
+    <div class="projectFlex">
+        <div class="projectsGrid">
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MySQL.png" })" websiteLink="https://anon1-chns39v1.b4a.run/" github="https://github.com/TaylorTayTyT/Anonymous-Tattoos" description="Share your awesome tattoos!" setActiveProject="setActiveProject" title="Anonymous Tattoos" img="anon.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "HTML+CSS.png", "Netlify.png", "MatterJs.png" })" websiteLink="https://tracynguyen6.netlify.app/" github="https://github.com/TaylorTayTyT/Tracy_website" description="Meet your newest UX/UI designer!" setActiveProject="setActiveProject" title="Mock UX/UI Portfolio Site" img="mockux.png" />
+            <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "Node.png" })" github="https://github.com/TaylorTayTyT/home_screen" description="Generate random spotify playlists based on keywords!" setActiveProject="setActiveProject" title="Spotify Playlist Generator" img="spotify.png" />
+            <ProjectPreview technologies="@(new string[] { "Chrome.png", "JavaScript.png", "HTML+CSS.png"})" github="https://github.com/TaylorTayTyT/FTimeSheetX" description="Skip the manual labor and get paid!" setActiveProject="setActiveProject" title="TimesheetX Automatic Fill" img="tsheetx.png" />
+        </div>
+        @if (defaultState) {
+
+        } else{
+        <div class="projectDisplay">
+            <div class="details">
+                <div class="title">@title</div>
+                <div class="description">@description</div>
+            </div>
+            <div class="second">
+                <div class="grid">
+                    <div class="projectImg" style=@(imgName.Length > 0 ? imgName : "")></div>
+                    <div class="gizmos">
+                        <div class="techs">
+                            @foreach (var tech in technologies){
+                                <img src=@($"./logos/{tech}")>
+                            }
+                        </div>
+                        <div class="chart">
+                            <img src="radio.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="github">
+                    @github
+                </div>
+                <a class="websiteLink" href="@websiteLink">
+                <img src="linkButton.png">
+                </a>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+@code {
+    private string imgName = "";
+    private string title;
+    private string description;
+    private string github;
+    private string[] technologies = [""];
+    private bool defaultState = true; 
+    private string websiteLink; 
+
+    // This method will be called from child components
+    private void setActiveProject(ProjectObject project)
+    {
+        imgName = "background-image: url(\"./projectpreviewimages/" + project.img + "\")";
+        title = project.Title;
+        description = project.description;
+        github = project.github;
+        technologies = project.technologies;
+        defaultState = false;
+        if(project.websiteLink == ""){
+            websiteLink = github;
+        }
+        else{
+            websiteLink = project.websiteLink;
+        }
+
+        StateHasChanged();
+    }
+
+    // You can use this method to change the active project directly
+}

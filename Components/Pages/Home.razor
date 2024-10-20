@@ -1,12 +1,43 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
-<div id = "header_container" class="header_container">
-    <div class="title">taylor nguyen</div>
-    <div id = "nav_options">
-        <div>about</div>
-        <div>experiences</div>
+
+<div class="newspaperContainer">
+    <div class="newsPaperMainHeader">
+        <div class="logos">
+            <a href="https://github.com/TaylorTayTyT"><img src="github_logo.png" class="linkLogo"></a>
+            <a href="http://www.linkedin.com/in/taylor-nguyen-07ab92190"><img src="linkedin.png" class="linkLogo"/></a>
+        </div>
+        <div class="mainHeaderTitle">
+            The Taylor Nguyen Times
+        </div>
+        <div class="date">
+            @date
+        </div>
     </div>
+    <div class="borderLine">
+    </div>
+    <div class="titles">
+        <div class="title volume">
+            Vol 22
+        </div>
+        <div class="title jobTitle">
+            Full Stack Developer
+        </div>
+        <div class="title">
+            taylornguyen904@gmail.com
+        </div>
+    </div>
+    <div class="borderLine">
+    </div>
+
+    <IntroBody/>
+
+
 </div>
-<About/>
-<TechStack/>
-<Experiences/>
+<Projects/>
+
+@code {
+    String date = DateTime.Now.ToString("dddd, MMMM dd, yyyy");
+
+}

@@ -5,24 +5,12 @@
       "PackagePath": "staticwebassets\\PersonalWebsite.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Bold.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Bold.ttf"
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Falkosta.otf",
+      "PackagePath": "staticwebassets\\Falkosta.otf"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-BoldItalic.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-BoldItalic.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Italic.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Italic.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\CourierPrime-Regular.ttf",
-      "PackagePath": "staticwebassets\\Courier_Prime\\CourierPrime-Regular.ttf"
-    },
-    {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\Courier_Prime\\OFL.txt",
-      "PackagePath": "staticwebassets\\Courier_Prime\\OFL.txt"
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",
+      "PackagePath": "staticwebassets\\The Wildtern Regular.otf"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\app.css",
@@ -49,6 +37,10 @@
       "PackagePath": "staticwebassets\\grain.svg"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkButton.png",
+      "PackagePath": "staticwebassets\\linkButton.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkedin.png",
       "PackagePath": "staticwebassets\\linkedin.png"
     },
@@ -61,16 +53,20 @@
       "PackagePath": "staticwebassets\\logos\\Back4App.png"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C#.png",
-      "PackagePath": "staticwebassets\\logos\\C#.png"
-    },
-    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C++.png",
       "PackagePath": "staticwebassets\\logos\\C++.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C.png",
       "PackagePath": "staticwebassets\\logos\\C.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
+      "PackagePath": "staticwebassets\\logos\\CSharp.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Chrome.png",
+      "PackagePath": "staticwebassets\\logos\\Chrome.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Docker.png",
@@ -117,6 +113,10 @@
       "PackagePath": "staticwebassets\\logos\\Linux.png"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MatterJs.png",
+      "PackagePath": "staticwebassets\\logos\\MatterJs.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\MongoDB.png",
       "PackagePath": "staticwebassets\\logos\\MongoDB.png"
     },
@@ -151,6 +151,38 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\TypeScript.png",
       "PackagePath": "staticwebassets\\logos\\TypeScript.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\mixue.jpg",
+      "PackagePath": "staticwebassets\\mixue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anon.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\anon.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\mockux.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\mockux.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\spotify.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\tsheetx.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\tsheetx.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\pureGrain.svg",
+      "PackagePath": "staticwebassets\\pureGrain.svg"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\radio.png",
+      "PackagePath": "staticwebassets\\radio.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",
+      "PackagePath": "staticwebassets\\trapped.gif"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PersonalWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
