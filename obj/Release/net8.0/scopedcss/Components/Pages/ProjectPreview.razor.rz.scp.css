@@ -1,0 +1,20 @@
+.project[b-5k376ofvbh]{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    cursor: pointer;
+    filter: grayscale(1) blur(2px) contrast(1.2);
+    object-fit: contain;
+    transition: all 5s !important;
+}
+
+.project:hover[b-5k376ofvbh]{
+    filter: saturate(100%) brightness(100%) contrast(1);
+}
+.projectContainer[b-5k376ofvbh]{
+    text-align: center;
+}
