@@ -1,15 +1,76 @@
-@page "/test"
+@page "/radio"
+@rendermode InteractiveServer
+@inject IJSRuntime JS
 
-
-<p role="status">Current count: @currentCount</p>
-
-<button EnableEventValidation="false" class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<div class="radioWrapper">
+    <div class="radio">
+        <div class="amfmcontroller">
+            <div class="caret" style="@divstyle"></div>
+            <div class="FM">
+                <div>FM</div>
+                <div>88</div>
+                <div>92</div>
+                <div>96</div>
+                <div>100</div>
+                <div>104</div>
+                <div>MC</div>
+            </div>
+            <div class="FM">
+                <div>FM</div>
+                <div>88</div>
+                <div>92</div>
+                <div>96</div>
+                <div>100</div>
+                <div>104</div>
+                <div>MC</div>
+            </div>
+        </div>
+        <div class="radioControls">
+            <div class="radioButton" @onclick="onLeftClick"></div>
+            <img src="sound.png">
+            <div class="radioButton" @onclick="onRightClick"></div>
+        </div>
+    </div>
+    @count
+    <audio id="soundEffect" src="static.mp3" preload="auto"></audio>
+</div>
 
 @code {
-    private int currentCount = 3;
 
-    private void IncrementCount()
+    private int left = 0;
+    private string divstyle;
+    private int count = 0;
+    protected override void OnInitialized()
     {
-        currentCount++;
+        divstyle = $"left: {left.ToString()}%";
     }
+
+    private async Task PlaySound()
+    {
+        await JS.InvokeVoidAsync("playSoundEffect");
+    }
+    private void onRightClick()
+    {
+        if (left >= 100)
+        {
+            return;
+        }
+        count += 1;
+        left += 1;
+        divstyle = $"left: {left.ToString()}%";
+        PlaySound(); 
+
+    }
+
+    private void onLeftClick()
+    {
+        if (left <= 0)
+        {
+            return;
+        }
+        left -= 1;
+        divstyle = $"left: {left.ToString()}%";
+        PlaySound(); 
+    }
+
 }

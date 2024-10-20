@@ -16,6 +16,16 @@
 <body>
     <Routes @rendermode="InteractiveServer"/>
     <script src="_framework/blazor.web.js"></script>
+    <script>
+    async function playSoundEffect() {
+        var audio = document.getElementById("soundEffect");
+        audio.play();
+        setTimeout(()=>{
+            audio.pause();
+        }, 200)
+    }
+</script>
+
 </body>
 
 </html>
