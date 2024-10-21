@@ -39,6 +39,10 @@ jobs:
       - name: Publish
         run: dotnet publish --configuration Release --output ./bin/Release/net8.0/publish
 
+      - name: Create Azure Web App
+        run: |
+          az webapp create --name 'Portfolio' --resource-group 'portfolio' --plan 'PortfolioPlan'
+
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
