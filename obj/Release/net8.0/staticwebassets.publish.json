@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2+c0wQ2i6fBaM8wwecDxiSAWCpFz+k41csYzTZTFhqk=",
+  "Hash": "5vducXnupFS+NG1QDlNSdGMrubRfqCAf7IxtMFwdxn4=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -340,25 +340,6 @@
       "OriginalItemSpec": "wwwroot\\logos\\C.png"
     },
     {
-      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C++.png",
-      "SourceId": "PersonalWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
-      "BasePath": "_content/PersonalWebsite",
-      "RelativePath": "logos/C++.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logos\\C++.png"
-    },
-    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Chrome.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -376,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logos\\Chrome.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Cpp.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "logos/Cpp.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logos\\Cpp.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\CSharp.png",
@@ -511,12 +511,12 @@
       "OriginalItemSpec": "wwwroot\\logos\\Heroku.png"
     },
     {
-      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\HTML+CSS.png",
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\HTMLCSS.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
       "BasePath": "_content/PersonalWebsite",
-      "RelativePath": "logos/HTML+CSS.png",
+      "RelativePath": "logos/HTMLCSS.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -527,7 +527,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logos\\HTML+CSS.png"
+      "OriginalItemSpec": "wwwroot\\logos\\HTMLCSS.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Java.png",

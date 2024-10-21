@@ -65,10 +65,6 @@
       "PackagePath": "staticwebassets\\logos\\Back4App.png"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C++.png",
-      "PackagePath": "staticwebassets\\logos\\C++.png"
-    },
-    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\C.png",
       "PackagePath": "staticwebassets\\logos\\C.png"
     },
@@ -79,6 +75,10 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Chrome.png",
       "PackagePath": "staticwebassets\\logos\\Chrome.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Cpp.png",
+      "PackagePath": "staticwebassets\\logos\\Cpp.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Docker.png",
@@ -101,8 +101,8 @@
       "PackagePath": "staticwebassets\\logos\\GraphQL.png"
     },
     {
-      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\HTML+CSS.png",
-      "PackagePath": "staticwebassets\\logos\\HTML+CSS.png"
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\HTMLCSS.png",
+      "PackagePath": "staticwebassets\\logos\\HTMLCSS.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\logos\\Heroku.png",
