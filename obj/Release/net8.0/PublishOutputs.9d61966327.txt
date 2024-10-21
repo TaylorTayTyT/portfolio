@@ -1,0 +1,7 @@
+C:\publish\PersonalWebsite.exe
+C:\publish\appsettings.Development.json
+C:\publish\appsettings.json
+C:\publish\PersonalWebsite.dll
+C:\publish\PersonalWebsite.deps.json
+C:\publish\PersonalWebsite.runtimeconfig.json
+C:\publish\PersonalWebsite.pdb
