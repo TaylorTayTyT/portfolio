@@ -28,7 +28,7 @@ jobs:
         run: dotnet publish -c Release -o ./myapp
 
       - name: List published files
-        run: ls -la ./myapp
+        run: ls -la ./myapp/publish
       
   deploy:
     runs-on: ubuntu-latest
