@@ -28,7 +28,7 @@ jobs:
         run: dotnet publish -c Release -o ./myapp
 
       - name: List published files
-        run: ls -la ./myapp/publish
+        run: ls -la ./myapp
       
   deploy:
     runs-on: ubuntu-latest
@@ -50,5 +50,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'Portfoliov2'
-          package: '.'
+          package: './myapp'
           
