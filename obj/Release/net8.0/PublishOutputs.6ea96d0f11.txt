@@ -1,0 +1,7 @@
+C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.exe
+C:\Users\taylo\Downloads\portfolio\publish\appsettings.Development.json
+C:\Users\taylo\Downloads\portfolio\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.dll
+C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.deps.json
+C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.runtimeconfig.json
+C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.pdb
