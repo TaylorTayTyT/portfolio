@@ -41,7 +41,7 @@ jobs:
 
       - name: Create Azure Web App
         run: |
-          az webapp create --name 'Portfoliov2' --resource-group 'Portfolio_v2' --plan 'PortfolioPlan'
+          az webapp create --name 'Portfoliov2' --resource-group 'Portfolio_v2' --plan 'PortfolioPlan' || echo "Web App already exists."
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
