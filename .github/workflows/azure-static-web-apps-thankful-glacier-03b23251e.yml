@@ -41,11 +41,11 @@ jobs:
 
       - name: Create Azure Web App
         run: |
-          az webapp create --name 'Portfolio_v2' --resource-group 'Portfolio_v2' --plan 'PortfolioPlan'
+          az webapp create --name 'Portfoliov2' --resource-group 'Portfolio_v2' --plan 'PortfolioPlan'
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'Portfolio_v2'  # Replace with your Azure App Service name
+          app-name: 'Portfoliov2'  # Replace with your Azure App Service name
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: './bin/Release/net8.0/publish'
