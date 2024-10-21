@@ -1,6 +1,11 @@
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.exe
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\publish\web.config
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\appsettings.Development.json
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\publish\appsettings.Development.json
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\publish\PersonalWebsite.deps.json
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\publish\PersonalWebsite.runtimeconfig.json
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.deps.json
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.runtimeconfig.json
