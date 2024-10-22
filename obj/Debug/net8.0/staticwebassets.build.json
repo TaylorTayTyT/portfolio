@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+38lBfCQlRzZgDH2StUBHRKT/zc12jm/uFVCyxyzG2M=",
+  "Hash": "TCk0qM/TfEpBLPBMO/GBqKb3G3tLqmD1BniXGb5hUS4=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -965,6 +965,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\t.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "t.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\t.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",

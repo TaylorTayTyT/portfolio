@@ -201,6 +201,10 @@
       "PackagePath": "staticwebassets\\static.mp3"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\t.png",
+      "PackagePath": "staticwebassets\\t.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",
       "PackagePath": "staticwebassets\\trapped.gif"
     },
