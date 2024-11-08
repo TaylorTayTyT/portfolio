@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\grain.svg"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\leftarrow.png",
+      "PackagePath": "staticwebassets\\leftarrow.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkButton.png",
       "PackagePath": "staticwebassets\\linkButton.png"
     },
@@ -169,6 +173,10 @@
       "PackagePath": "staticwebassets\\mixue.jpg"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anki.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\anki.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anon.png",
       "PackagePath": "staticwebassets\\projectpreviewimages\\anon.png"
     },
@@ -179,6 +187,10 @@
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\spotify.png",
       "PackagePath": "staticwebassets\\projectpreviewimages\\spotify.png"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\t.png",
+      "PackagePath": "staticwebassets\\projectpreviewimages\\t.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\tsheetx.png",
@@ -193,12 +205,20 @@
       "PackagePath": "staticwebassets\\radio.png"
     },
     {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\rightarrow.png",
+      "PackagePath": "staticwebassets\\rightarrow.png"
+    },
+    {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\sound.png",
       "PackagePath": "staticwebassets\\sound.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\static.mp3",
       "PackagePath": "staticwebassets\\static.mp3"
+    },
+    {
+      "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\t.png",
+      "PackagePath": "staticwebassets\\t.png"
     },
     {
       "Id": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\trapped.gif",

@@ -92,6 +92,7 @@
     width: 90%;
     margin: auto;
     filter: grayscale(1);
+    background-size: 100%;
 }
 
 .projectDisplay > .second > .grid > .projectImg:hover[b-g2xt9y02h9]{
@@ -134,6 +135,18 @@
     padding: 0.25rem;
     filter: none;
     animation: spin-b-g2xt9y02h9 5s infinite linear;
+}
+.arrow[b-g2xt9y02h9]{
+    cursor: pointer;
+}
+
+.left[b-g2xt9y02h9]{
+    transform: rotate(180deg);
+    float: left;
+}
+.right[b-g2xt9y02h9]{
+    justify-self: flex-end;
+    float: right;
 }
 
 @keyframes spin-b-g2xt9y02h9 {

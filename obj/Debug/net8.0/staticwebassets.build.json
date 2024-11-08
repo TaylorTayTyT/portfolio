@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xv2W75jmhrK56TfcnFbkS3K1qOZavOeTuTuKz8TFee0=",
+  "Hash": "DQZBwSIhAU8ghUlcXh/509VB00wvq6HnUptX1pLhpsY=",
   "Source": "PersonalWebsite",
   "BasePath": "_content/PersonalWebsite",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\grain.svg"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\leftarrow.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "leftarrow.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\leftarrow.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\linkButton.png",
@@ -815,6 +834,25 @@
       "OriginalItemSpec": "wwwroot\\mixue.jpg"
     },
     {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anki.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "projectpreviewimages/anki.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\projectpreviewimages\\anki.png"
+    },
+    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\anon.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -870,6 +908,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\projectpreviewimages\\spotify.png"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\t.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "projectpreviewimages/t.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\projectpreviewimages\\t.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\projectpreviewimages\\tsheetx.png",
@@ -929,6 +986,25 @@
       "OriginalItemSpec": "wwwroot\\radio.png"
     },
     {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\rightarrow.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "rightarrow.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\rightarrow.png"
+    },
+    {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\sound.png",
       "SourceId": "PersonalWebsite",
       "SourceType": "Discovered",
@@ -965,6 +1041,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\static.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\t.png",
+      "SourceId": "PersonalWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\",
+      "BasePath": "_content/PersonalWebsite",
+      "RelativePath": "t.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\t.png"
     },
     {
       "Identity": "C:\\Users\\taylo\\Downloads\\portfolio\\wwwroot\\The Wildtern Regular.otf",

@@ -92,6 +92,7 @@
     width: 90%;
     margin: auto;
     filter: grayscale(1);
+    background-size: 100%;
 }
 
 .projectDisplay > .second > .grid > .projectImg:hover{
@@ -134,6 +135,18 @@
     padding: 0.25rem;
     filter: none;
     animation: spin 5s infinite linear;
+}
+.arrow{
+    cursor: pointer;
+}
+
+.left{
+    transform: rotate(180deg);
+    float: left;
+}
+.right{
+    justify-self: flex-end;
+    float: right;
 }
 
 @keyframes spin {

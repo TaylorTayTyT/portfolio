@@ -5,6 +5,7 @@
     </div>
     <div class="projectFlex">
         <div class="projectsGrid">
+            @if(page % 2 == 0){
             <ProjectPreview technologies="@(new string[] { "React.png", "PHP.png", "Apache.png", "MySQL.png" })"
                 websiteLink="https://anon1-chns39v1.b4a.run/" github="https://github.com/TaylorTayTyT/Anonymous-Tattoos"
                 description="Share your awesome tattoos!" setActiveProject="setActiveProject" title="Anonymous Tattoos"
@@ -21,11 +22,22 @@
             <ProjectPreview technologies="@(new string[] { "Chrome.png", "JavaScript.png", "HTMLCSS.png"})"
                 github="https://github.com/TaylorTayTyT/FTimeSheetX" description="Skip the manual labor and get paid!"
                 setActiveProject="setActiveProject" title="TimesheetX Automatic Fill" img="tsheetx.png" />
+                
+                }else if(page % 2 == 1){
+                    <ProjectPreview technologies="@(new string[] { "Python.png", "Google Cloud.png"})"
+                     github="https://github.com/TaylorTayTyT/vietanki"
+                description="Instantly create viet to english flashcards in Anki!" setActiveProject="setActiveProject" title="Viet Anki Add On"
+                img="anki.png" />
+                <ProjectPreview technologies="@(new string[] {})"
+                     github="https://github.com/TaylorTayTyT/"
+                description="Coming soon!" setActiveProject="setActiveProject" title="Coming soon!"
+                img="t.png" />
+                }
+                <img src="rightarrow.png" class="arrow left" @onclick = "leftArrow">
+                <img src="rightarrow.png" class="arrow right" @onclick = "rightArrow">  
+              
         </div>
-        @if (defaultState)
-        {
-
-        }
+        @if (defaultState){}
         else
         {
             <div class="projectDisplay">
@@ -86,7 +98,9 @@
                 </div>
             </div>
         }
+        
     </div>
+    
 </div>
 
 @code {
@@ -99,6 +113,18 @@
     private string websiteLink;
     private int left = 0;
     private string divstyle = "";
+    private int page = 0; 
+
+    private Dictionary<Int32, Dictionary<String, dynamic>> projects;
+    private Dictionary<String, dynamic>[] projectDetailsArray; 
+
+    private void rightArrow(){
+        page += 1; 
+    }
+
+    private void leftArrow(){
+        page -= 1;
+    }
 
     // This method will be called from child components
     private void setActiveProject(ProjectObject project)
@@ -165,6 +191,6 @@
         PlayStat();
         StateHasChanged();
     }
-
+    
     // You can use this method to change the active project directly
 }
