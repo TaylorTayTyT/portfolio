@@ -36,3 +36,4 @@ C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\appsettings.Develo
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\appsettings.json
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.deps.json
 C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\publish\PersonalWebsite.runtimeconfig.json
+C:\Users\taylo\Downloads\portfolio\bin\Release\net8.0\package-lock.json

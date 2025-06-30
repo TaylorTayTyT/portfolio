@@ -1,6 +1,12 @@
 C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.exe
+C:\Users\taylo\Downloads\portfolio\publish\publish\web.config
 C:\Users\taylo\Downloads\portfolio\publish\appsettings.Development.json
 C:\Users\taylo\Downloads\portfolio\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\publish\package-lock.json
+C:\Users\taylo\Downloads\portfolio\publish\publish\appsettings.Development.json
+C:\Users\taylo\Downloads\portfolio\publish\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\publish\publish\PersonalWebsite.deps.json
+C:\Users\taylo\Downloads\portfolio\publish\publish\PersonalWebsite.runtimeconfig.json
 C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.deps.json
 C:\Users\taylo\Downloads\portfolio\publish\PersonalWebsite.runtimeconfig.json

@@ -7,13 +7,8 @@ C:\Users\taylo\Downloads\portfolio\.github\workflows\master_portfoliov2.yml\publ
 C:\Users\taylo\Downloads\portfolio\.github\workflows\master_portfoliov2.yml\publish\PersonalWebsite.runtimeconfig.json
 C:\Users\taylo\Downloads\portfolio\.github\workflows\master_portfoliov2.yml\PersonalWebsite.staticwebassets.runtime.json
 C:\Users\taylo\Downloads\portfolio\.github\workflows\master_portfoliov2.yml\PersonalWebsite.exe
-C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\publish\web.config
 C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\appsettings.json
-C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\publish\appsettings.Development.json
-C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\publish\appsettings.json
-C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\publish\PersonalWebsite.deps.json
-C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\publish\PersonalWebsite.runtimeconfig.json
 C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\PersonalWebsite.staticwebassets.runtime.json
 C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\PersonalWebsite.exe
 C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\PersonalWebsite.deps.json
@@ -45,3 +40,4 @@ C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\refint\PersonalWebsite.dll
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.pdb
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\PersonalWebsite.genruntimeconfig.cache
 C:\Users\taylo\Downloads\portfolio\obj\Debug\net8.0\ref\PersonalWebsite.dll
+C:\Users\taylo\Downloads\portfolio\bin\Debug\net8.0\package-lock.json
