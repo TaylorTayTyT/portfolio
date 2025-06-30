@@ -1,0 +1,14 @@
+C:\Users\taylo\Downloads\portfolio\app\publish\PersonalWebsite.exe
+C:\Users\taylo\Downloads\portfolio\app\publish\appsettings.Development.json
+C:\Users\taylo\Downloads\portfolio\app\publish\appsettings.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\appsettings.Development.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\appsettings.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\package-lock.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\PersonalWebsite.deps.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\PersonalWebsite.runtimeconfig.json
+C:\Users\taylo\Downloads\portfolio\app\publish\app\build\PersonalWebsite.staticwebassets.runtime.json
+C:\Users\taylo\Downloads\portfolio\app\publish\package-lock.json
+C:\Users\taylo\Downloads\portfolio\app\publish\PersonalWebsite.dll
+C:\Users\taylo\Downloads\portfolio\app\publish\PersonalWebsite.deps.json
+C:\Users\taylo\Downloads\portfolio\app\publish\PersonalWebsite.runtimeconfig.json
+C:\Users\taylo\Downloads\portfolio\app\publish\PersonalWebsite.pdb

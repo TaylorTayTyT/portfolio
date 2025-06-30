@@ -8,10 +8,10 @@ COPY ["PersonalWebsite.csproj", "."]
 RUN dotnet restore "PersonalWebsite.csproj"
 COPY . .
 WORKDIR "/src"
-RUN dotnet build "PersonalWebsite" -c Release -o /app/build
+RUN dotnet build  -c Release -o ./app/build
 
 FROM build AS publish
-RUN dotnet publish "PersonalWebsite" -c Release -o /app/publish
+RUN dotnet publish  -c Release -o ./app/publish
 
 FROM base AS final
 WORKDIR /app
