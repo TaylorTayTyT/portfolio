@@ -16,4 +16,6 @@ RUN dotnet publish  -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+# Explicitly ensure wwwroot is copied
+COPY --from=publish /app/publish/wwwroot ./wwwroot
 ENTRYPOINT ["dotnet", "PersonalWebsite.dll"]
