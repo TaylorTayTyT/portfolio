@@ -7,7 +7,8 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 var app = builder.Build();
-
+var wwwrootPath = Path.Combine(app.Environment.ContentRootPath, "wwwroot");
+Console.WriteLine($"Looking for wwwroot at: {wwwrootPath}");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
